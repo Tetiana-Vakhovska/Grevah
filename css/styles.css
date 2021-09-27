@@ -568,3 +568,11 @@ img {
   width: 11px;
   height: 11px;
 }
+.modal-name-section {
+  left: 0;
+}
+.modal {
+  width: 448px;
+  height: 58px;
+  display: flex;
+}
