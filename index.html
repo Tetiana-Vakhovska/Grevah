@@ -462,34 +462,39 @@
     <div class="backdrop is-hidden" data-modal>
      
       <div class="modal">
-         <p>Оставьте свои данные, мы вам перезвоним</p>
-        <button class="button-data-modal-close" data-modal-close>
+        <div class="button-position">
+         <button class="button-data-modal-close" data-modal-close>
           <svg class="button-data-modal-close-icon">
             <use href="./images/symbol-defs.svg#Vector"></use>
           </svg>
         </button>
-        <form action="">
+        </div>
+         <p class="text-hero-modal">Оставьте свои данные, мы вам перезвоним</p>
+       
+        
           <ul>
+            <form action="">
             <li class="modal-section">
               <label  class="label-text" for="name"></label>Имя</label><br>
               <input class="input" type="text" name="name" id="name" />
             </li>
             <li class="modal-section">
-              <label for="tel">Телефон</label><br>
+              <label class="label-text" for="tel">Телефон</label><br>
               <input class="input" type="tel" name="tel" id="tel" />
             </li>
             <li class="modal-section">
-              <label for="email">Почта</label><br>
+              <label class="label-text" for="email">Почта</label><br>
               <input class="input" type="email" name="email" id="email" />
             </li>
             <li class="modal-section">
-              <label for="name">Комментарий</label><br>
-              <input  class="modal-section-comments"type="text" name="name" id="name" />
+              <label class="label-text" for="name">Комментарий</label><br>
+              <input  class="modal-section-comments" type="text" name="name" id="name" />
             </li>
-            <li> <button class="button-send" type="submit">Отправить</button></li>
+            
+            </form>
           </ul>
-           
-        </form>
+         <p class="modal-text">Соглашаюсь с рассылкой и принимаю Условия договора</p>
+            <button class="button-send" type="submit">Отправить</button>
        
       </div>
     </div>
