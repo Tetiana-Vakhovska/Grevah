@@ -550,8 +550,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: flex-end;
+
   padding-top: 8px;
   padding-right: 8px;
 }
@@ -568,11 +567,32 @@ img {
   width: 11px;
   height: 11px;
 }
-.modal-name-section {
-  left: 0;
-}
-.modal {
+.modal-section {
   width: 448px;
   height: 58px;
-  display: flex;
+  padding-left: 41px;
 }
+.input {
+  width: 448px;
+  height: 40px;
+}
+.modal-section-comments {
+  width: 448px;
+  height: 120px;
+  padding-left: 41px;
+  
+}
+.label-text {
+  font-family: Roboto;
+   font-weight: 400;
+  font-size: 12px;
+  line-height: 1,17;
+  color: #757575;
+}
+.button-send{
+  width: 200px;
+  height: 50px;
+ margin-left: 165px;
+
+ 
+
