@@ -575,12 +575,19 @@ img {
   width: 448px;
   height: 58px;
   padding-left: 41px;
+  margin-bottom: 10px;
+}
+.modal-section:not(:last-child) {
+  margin-bottom: 10px;
 }
 .input {
   width: 448px;
   height: 40px;
   padding: 0;
-  margin-bottom: 10px;
+
+  position: relative;
+  padding-left: 42px;
+  color: #757575;
 }
 .modal-section-comments {
   width: 448px;
@@ -611,6 +618,20 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 1, 17;
-  margin-bottom: 26px;
+  margin-bottom: 14px;
   padding-left: 41px;
+}
+.icon-email {
+  position: absolute;
+  top: 127px;
+  left: 56px;
+}
+.icon-email-size {
+  width: 18px;
+  height: 18px;
+}
+.icon-tel {
+  position: absolute;
+  top: 192px;
+  left: 56px;
 }
