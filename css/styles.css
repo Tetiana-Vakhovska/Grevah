@@ -563,9 +563,13 @@ img {
   align-items: center;
   justify-content: center;
 }
+.button-data-modal-close:hover {
+  fill: #2196f3;
+}
 .button-data-modal-close-icon {
   width: 11px;
   height: 11px;
+  color: currentColor;
 }
 .button-position {
   margin-top: 8px;
@@ -577,6 +581,7 @@ img {
   padding-left: 41px;
   margin-bottom: 10px;
   font-size: 12px;
+  color: #212121;
 }
 .modal-section:not(:last-child) {
   margin-bottom: 10px;
@@ -585,15 +590,19 @@ img {
   width: 448px;
   height: 40px;
   padding: 0;
-
+  color: #212121;
   position: relative;
   padding-left: 42px;
-  color: #757575;
+  border: #757575 solid 1px;
+  border-radius: 4px;
 }
+
 .modal-section-comments {
   width: 448px;
   height: 120px;
   padding-left: 41px;
+  border: #757575 solid 1px;
+  border-radius: 4px;
 }
 .label-text {
   font-family: Roboto;
@@ -604,11 +613,24 @@ img {
   margin-bottom: 4px;
 }
 .button-send {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1, 17;
   width: 200px;
   height: 50px;
   margin-left: 165px;
   margin-bottom: 40px;
   margin-top: 30px;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  border: none;
+  border-radius: 4px;
+  transition-property: background;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-send:hover {
+  background-color: #188ce8;
 }
 .modal-text {
   margin-top: 140px;
@@ -618,16 +640,18 @@ img {
   font-family: Roboto;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1, 17;
+  line-height: 1, 87;
   margin-bottom: 14px;
   padding-left: 41px;
 }
+
 .icon-name {
   position: absolute;
   top: 127px;
   left: 56px;
   width: 18px;
   height: 18px;
+  color: currentColor;
 }
 .icon-name-size {
   width: 12px;
@@ -637,8 +661,31 @@ img {
   position: absolute;
   top: 195px;
   left: 56px;
+  color: currentColor;
 }
 .icon-tel-size {
   width: 18px;
   height: 18px;
+}
+.icon-email-size {
+  width: 18px;
+  height: 18px;
+}
+.icon-email {
+  position: absolute;
+  top: 260px;
+  left: 56px;
+  color: currentColor;
+}
+.terms-contract {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  color: var(--accent-color);
+}
+.checkbox {
+  width: 16px;
+  height: 15px;
+  border: #212121;
 }
