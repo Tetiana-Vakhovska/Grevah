@@ -576,6 +576,7 @@ img {
   height: 58px;
   padding-left: 41px;
   margin-bottom: 10px;
+  font-size: 12px;
 }
 .modal-section:not(:last-child) {
   margin-bottom: 10px;
@@ -621,17 +622,23 @@ img {
   margin-bottom: 14px;
   padding-left: 41px;
 }
-.icon-email {
+.icon-name {
   position: absolute;
   top: 127px;
   left: 56px;
-}
-.icon-email-size {
   width: 18px;
   height: 18px;
 }
+.icon-name-size {
+  width: 12px;
+  height: 12px;
+}
 .icon-tel {
   position: absolute;
-  top: 192px;
+  top: 195px;
   left: 56px;
+}
+.icon-tel-size {
+  width: 18px;
+  height: 18px;
 }
