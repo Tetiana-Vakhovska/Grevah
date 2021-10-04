@@ -686,6 +686,7 @@ img {
 }
 .checkbox {
   appearance: none;
+  position: absolute;
   width: 16px;
   height: 15px;
   border: #212121;
@@ -704,4 +705,18 @@ img {
   height: 15px;
   top: 244px;
   left: 0px;
+}
+.check-input {
+  appearance: none;
+  position: absolute;
+  padding-right: 20px;
+}
+.checkbox {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  background-image: url(../images/icons.svg#letter);
+  background-color: #2196f3;
+  margin-left: -20px;
+  border: 1px solid #212121;
 }
