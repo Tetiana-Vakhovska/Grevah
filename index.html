@@ -473,7 +473,7 @@
        
         
           <ul>
-            <form action=""></form>
+            <form action="">
             <li class="modal-section">
               <label  class="label-text" for="name"></label>Имя</label><br>
       
@@ -509,18 +509,21 @@
             </li>
             </form>
           </ul>
-          
-          
-         <p class="modal-text"> <label  for=""> <input class="checkbox" type="checkbox" name="checkbox"> 
-          Соглашаюсь с рассылкой и принимаю
-          <span>
-              <svg class="size-active-ckeckbox">
+          <div class="checkbox-section">
+            <label class="check"><input  class="check-input" type="checkbox" checked>  
+              <span class="checkbox">
+                 <svg class="size-active-ckeckbox">
             <use href="./images/icons.svg#letter"></use>
           </svg>
-          </span>
-          </label> <a class="terms-contract" href=""><u>Условия договора</u>  </a> </p>
-            <button class="button-send" type="submit">Отправить</button>
-       
+
+              </span>
+              <p class="text-checkboxs"> Соглашаюсь с рассылкой и принимаю  <a class="terms-contract" href=""><u>Условия договора</u>  </a></p>
+          
+            </label>
+             <button class="button-send" type="submit">Отправить</button>
+
+          </div>
+        
       </div>
     </div>
     <script src="./js/modal.js"></script>
