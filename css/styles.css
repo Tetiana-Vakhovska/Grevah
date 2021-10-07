@@ -697,8 +697,7 @@ img {
   position: absolute;
   width: 16px;
   height: 15px;
-  top: 244px;
-  left: 0px;
+
   color: currentColor;
 }
 .check-input {
@@ -710,11 +709,11 @@ img {
   position: absolute;
   width: 16px;
   height: 15px;
-  background-image: url(../images/defs.svg);
-  background-color: var(--accent-color);
+  background-color: var(--primary-white-color);
   margin-left: -20px;
   border: 1px solid #212121;
-  border-radius: 1px;
+  border-radius: 2px;
+  fill: var(--primary-white-color);
 }
 .text-checkboxs {
   color: #757575;
@@ -723,8 +722,10 @@ img {
   text-align: center;
 }
 .check-input:checked + .checkbox {
-  background-color: var(--primary-white-color);
-  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border: none;
+  background-image: url(../images/icons.svg#email);
+  fill: var(--primary-white-color);
 }
 .checkbox-section {
   width: 443px;
