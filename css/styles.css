@@ -755,11 +755,7 @@ img {
   border-radius: 4px;
   fill: #2196f3;
 }
-.modal-section:focus-within > .icon-email {
-  border: 1px solid var(--accent-color);
-  border-radius: 4px;
-  fill: #2196f3;
-}
+
 .modal-section-comments:hover,
 .modal-section-comments:focus {
   border: 1px solid var(--accent-color);
