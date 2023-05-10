@@ -170,7 +170,7 @@ img {
 }
 .benefit-section {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
 }
 .section-title {
   padding-bottom: 94px;
