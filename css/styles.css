@@ -799,3 +799,16 @@ img {
 .modal-section:focus-within {
   fill: #2196f3;
 }
+.cont{
+ margin-top: 200px;
+  
+}
+.cont-item{
+
+
+  color: #757575;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1, 17;
+  text-align: center;
+}
