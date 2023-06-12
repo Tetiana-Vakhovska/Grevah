@@ -129,9 +129,9 @@ ul {
 a {
   text-decoration: none;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:480px) {
   .hero-section {
-    padding: 400px 0;
+   
     text-align: center;
     
     margin-right: auto;
@@ -140,7 +140,7 @@ a {
       url(../images/19110440.jpg);
     background-repeat: no-repeat;
     background-position: center;
-  max-width: 800px;}
+  max-width: 480px;}
 }
 
 .hero-section {
@@ -395,9 +395,6 @@ img {
   padding: 60px 0;
 }
 
-.section {
-  padding: 94px 0;
-}
 
 .address-section {
   font-style: normal;
